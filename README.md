@@ -1,2 +1,2 @@
-# backend-js
-Exercícios de backend jovem programador
+# aulas-2024-backend
+Aulas para o JP referente a Backend em NodeJS
