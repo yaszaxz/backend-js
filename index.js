@@ -1,14 +1,13 @@
 const express = require('express');
+const somar = require('./service/exercicio1');
 
 const app = express();
 app.use(express.json())
 
 app.post("/exercicio1", (req, res) => {
     // http://localhost:3000/exercicio1
-    const num1 = req.query.num1
-    const num2 = req.query.num2
-    
-    const resultado = Number(num1) + Number(num2);
+        
+    const resultado = somar(req.body.num1 , req.body.num2)
     
     res.json({ message: resultado })
 })

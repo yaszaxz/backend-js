@@ -1,0 +1,1 @@
+ter um arquivo .js para cada exercício
